@@ -47,7 +47,7 @@
 
       <!-- Fixed navbar -->
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <!--<div class="container">-->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -59,10 +59,12 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="#bio">Bio</a></li>
-              <li><a href="#pub">Pub</a></li>
+              <!--<li><a href="#bio">Bio</a></li>-->
+              <li><a href="#pub">Publications</a></li>
+	      <li><a href="#contact">Contact</a></li>
 	      <li><a href="#elsewhere">Elsewhere</a></li>
-              <!--<li><a href="http://www.quora.com/Angli-Liu/Posts">Blog</a></li>
+              
+		<!--<li><a href="http://www.quora.com/Angli-Liu/Posts">Blog</a></li>
               <li><a href="#">Contact</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -83,42 +85,40 @@
               <li><a href="/bootstrap-3.3.6/docs/examples/navbar-fixed-top/">Fixed top</a></li>
             </ul>-->
           </div><!--/.nav-collapse -->
-        </div><!--container-->
+        <!--</div>--><!--container-->
       </nav>
 	
-   <div class="container">
-   
-     <div class="page-header" style="overflow: hidden" id="contact">
-  	    <!--img data-src="holder.js/150x150" class="img-thumbnail" src="image/haichen-150px.jpg" id="avatar"/-->
-        <!--<img src="uw.jpg" alt="Haichen Shen" id="avatar"/>-->
-        <p style="text-align: center;">
-          <span class="text-success">anglil@cs.washington.edu</span><br/>
-	  (206) 626-1849<br/>
-	  CSE 414
-        </p>
-        
-        <p style="text-align: center;">
-          185 Stevens Way, AC101<br/>
-          Paul G. Allen Center, Box 352350<br/>
-          Seattle, WA 98195-2350
-        </p>
-      </div>
-    </div>
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="col-lg-3 text-center">
+	<div class="page-header" style="border-color: White;">
+	<img class="img-thumbnail" src="img/uw.jpg" width="50%">
+	</div>
+</div>
+<div class="col-lg-6">
+     <div class="page-header" id="bio">
+<strong>I</strong> study in the Computer Science and Engineering Department at the University of Washington since Autumn 2013, after receiving a Bachelor's degree in electrical engineering from Tsinghua University and a stint at Microsoft Research Asia. I am a believer in formally principled engineering and efforts to democratize technologies. Right now I'm working at the interplay of machine learning and natural language processing.
+    </div><br>
+<!--</div>
+<div class="col-lg-3 text-center">
+</div>
+</div>
+</div>
+
+<br>
+ 
 
 
-  
-    <div class="container">
-          <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron" id="bio">
-	
-	<h3 class="panel-title">Bio</h3>
-        Angli Liu studies in the Computer Science and Engineering Department at the University of Washington since Autumn 2013, after receiving a Bachelor's degree in electrical engineering from Tsinghua University and a stint at Microsoft Research Asia. He is a believer in formally principled engineering and efforts to democratize technologies. Right now he is working at the interplay of machine learning and natural language processing.
-	<!--<a class="btn btn-lg btn-primary" href="https://www.dropbox.com/s/dxmoxrl8yaov3l8/cv_2.pdf?dl=0" role="button">CV &raquo;</a> <a class="btn btn-lg btn-primary" href="https://scholar.google.com/citations?user=iRZBJRMAAAAJ&hl=en&oi=ao" role="button">Google Scholar &raquo;</a>-->
-      </div>
-    </div>	    
+<div class="container-fluid">
 
- <div class="container">
-   
+<div class="row-fluid">
+
+<div class="col-lg-3 text-center">
+
+</div>
+
+<div class="col-lg-6">-->
       <div class="panel panel-default" id="pub">
 	<div class="panel-heading">
 		<h3 class="panel-title">Selected publications</h3>
@@ -131,7 +131,7 @@
 				<li><a href="https://www.cs.washington.edu/ai/pubs/liu-naacl16.pdf">Efficient Crowd Annotation for Relation Extraction</a></li>
 				<li>Angli Liu, Stephen Soderland, Jonathan Bragg, Christopher H. Lin, Xiao Ling, Daniel S. Weld</li>
 				<li>NAACL'16</li>
-				<li>[<a href="">slides</a>]</li>
+				<li>[<a href="https://docs.google.com/presentation/d/1X413wl5FBEBNDebO15XaqTVQU9Oe2IAuyQ8UAVtl7G4/edit?usp=sharing">slides</a>]</li>
 			</ul>
 		</div>
 
@@ -148,25 +148,48 @@
 		<div class="list-group-item">
 			<ul class="list-unstyled">
 				<li><a href="http://dl.acm.org/citation.cfm?id=2626312">Turbocharging Backscatter Communication</a></li>
-				<li>Angli Liu, Aaron Parks, Shyam Gollakota, Josh Smith</li>
+				<li>Angli Liu*, Aaron Parks*, Shyam Gollakota, Josh Smith</li>
 				<li>SIGCOMM'14<li>
 				<li>[<a href="https://docs.google.com/presentation/d/1j4bHgs2R3t4ceeK7q_KHnvD82EA1kvKVSyCpZVLM64I/edit?usp=sharing">slides</a>]</li>
 			</ul>
 		</div>
 	</div><!--list-group-->
       </div><!--panel-->
-     
+</div><!--span6-->
+
+<div class="col-lg-3 text-center">
+
+</div>
+
+</div><!--row-fluid-->
+</div><!--container-fluid-->
+
+<br>
+
+<div class="jumbotron" id="contact">
+	<div style="text-align: center;">
+          <span class="text-success">anglil@cs.washington.edu</span><br/>
+	  (206) 626-1849<br/>
+	  CSE 414
+        </div>
+        
+        <div style="text-align: center;">
+          185 Stevens Way, AC101<br/>
+          Paul G. Allen Center, Box 352350<br/>
+          Seattle, WA 98195-2350
+        </div>
+	
+</div> 
+  
 	<!--<h2>Elsewhere</h2>-->
 	<div id="elsewhere" style="margin-top: 2em; margin-bottom: 2em; text-align: center;">
                 <span class="bitbucket"><img src="img/bit3.png" width="16px" height="16px" style="vertical-align: middle;" /> <a href="https://bitbucket.org/anglil/" rel="me">anglil</a></span> |  
                 <span class="github"><img src="img/GitHub-Mark-64px.png" width="16px" height="16px" style="vertical-align: middle;" /> <a href="https://github.com/anglil" rel="me">anglil</a></span> |
        		<span class="quora"> <a href="https://anglil91.quora.com/" rel="me"><img src="img/quora3.png" width="16px" height="16px" style="vertical-align: middle;" /></a></span> |
-		<span class="scholar"> <a href="https://scholar.google.com/citations?user=iRZBJRMAAAAJ&hl=en&oi=ao" rel="me"><img src="img/scholar.png" width="16px" height="16px" style="vertical-align: middle;" /></a></span> <!--|		
-		<span class="twitter"> <a href="https://twitter.com/anglil91" rel="me"><img src="twitter-64.png" width="16px" height="16px" style="vertical-align: middle;" /></a></span>-->		
+		<span class="scholar"> <a href="https://scholar.google.com/citations?user=iRZBJRMAAAAJ&hl=en&oi=ao" rel="me"><img src="img/scholar.png" width="16px" height="16px" style="vertical-align: middle;" /></a></span> |		
+		<span class="twitter"> <a href="https://twitter.com/anglil91" rel="me"><img src="img/twitter-64.png" width="16px" height="16px" style="vertical-align: middle;" /></a></span>		
 	</div>
-
- </div><!--container-->
-          
+       
 
 
     <!-- Bootstrap core JavaScript
