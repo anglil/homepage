@@ -126,21 +126,13 @@ A PhD student in the Computer Science and Engineering Department at the Universi
 	</div>
 		
 	<div class="list-group">
-		<div class="list-group-item">
-			<ul class="list-unstyled">
-				<li><a href="">Lexicon-based Tensor-to-tensor Model for Low-resource Language Translation</a></li>
-				<li>Angli Liu et al.</li>
-				<li>In submission</li>
-				<li>[<a href="">code</a>]</li>
-			</ul>
-		</div>
 
 		<div class="list-group-item">
 			<ul class="list-unstyled">
-				<li><a href="">Document-context Language Model for Out-of-vocabulary Word Inference</a></li>
-				<li>Angli Liu et al.</li>
-				<li>In submission</li>
-				<li>[<a href="">code</a>]</li>
+				<li><a href="https://arxiv.org/abs/1801.08660">Context Models for OOV Word Translation in Low-Resource Languages</a></li>
+				<li>Angli Liu, Katrin Kirchhoff</li>
+				<li>arXiv:1801.08660</li>
+				<li>[<a href="">slides</a>][<a href="">AMTA'18 version</a>]</li>
 			</ul>
 		</div>
 
@@ -149,16 +141,16 @@ A PhD student in the Computer Science and Engineering Department at the Universi
 				<li><a href="http://aclweb.org/anthology/N/N16/N16-1104.pdf">Effective Crowd Annotation for Relation Extraction</a></li>
 				<li>Angli Liu, Stephen Soderland, Jonathan Bragg, Christopher H. Lin, Xiao Ling, Daniel S. Weld</li>
 				<li>NAACL'16 <i>(long paper, oral presentation)</i></li>
-				<li>[<a href="">bib</a>][<a href="https://docs.google.com/presentation/d/1X413wl5FBEBNDebO15XaqTVQU9Oe2IAuyQ8UAVtl7G4/edit?usp=sharing">slides</a>][<a href="http://techtalks.tv/talks/effective-crowd-annotation-for-relation-extraction/62301/">video</a>][<a href="https://github.com/anglil/EffectiveCrowd">code</a>][<a href="https://gist.github.com/anglil/3d3cbb1233f576c4ea45adce397d9080">data</a>]</li>
+				<li>[<a href="https://docs.google.com/presentation/d/1X413wl5FBEBNDebO15XaqTVQU9Oe2IAuyQ8UAVtl7G4/edit?usp=sharing">slides</a>][<a href="http://techtalks.tv/talks/effective-crowd-annotation-for-relation-extraction/62301/">video</a>][<a href="https://github.com/anglil/EffectiveCrowd">code</a>][<a href="https://gist.github.com/anglil/3d3cbb1233f576c4ea45adce397d9080">data</a>]</li>
 			</ul>
 		</div>
 
 		<div class="list-group-item">
 			<ul class="list-unstyled">
-				<li><a href="http://dl.acm.org/citation.cfm?id=2699354">Retro-VLC: Enabling Battery-free Duplex Visible Light Communication for Mobile and IoT</a></li>
-				<li>Jiangtao Li, Angli Liu, Guobin Shen, Liqun Li, Chao Sun, Feng Zhao</li>
-				<li>HotMobile'15<li>
-				<li>[<a href="https://scholar.google.com/scholar.bib?q=info:uUvjZ7ik3koJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAVzbwvTEnxGNup7_4YxR9P9HYaAh0Q7BI&scisf=4&hl=en">bib</a>][<a href="https://docs.google.com/presentation/d/1oWmb_FmNVZINTaMLXtRZtsKpv7Hv4BbOGHSbHXhF_ug/edit?usp=sharing">slides</a>]</li><!--[<a href="pubs/63-retrovlc.pdf">extended version</a>]</li>-->
+				<li><a href="https://arxiv.org/abs/1801.09812">Retro-VLC: Enabling Battery-free Duplex Visible Light Communication for Mobile and IoT</a></li>
+				<li>Angli Liu, Jiangtao Li, Guobin Shen, Chao Sun, Liqun Li, Feng Zhao</li>
+				<li>arXiv:1801.09812<li>
+				<li>[<a href="https://docs.google.com/presentation/d/1oWmb_FmNVZINTaMLXtRZtsKpv7Hv4BbOGHSbHXhF_ug/edit?usp=sharing">slides</a>][<a href="http://dl.acm.org/citation.cfm?id=2699354">HotMobile'15 version</a>]</li>
 			</ul>
 		</div>
 
@@ -168,7 +160,7 @@ A PhD student in the Computer Science and Engineering Department at the Universi
 				<li><a href="http://dl.acm.org/citation.cfm?id=2626312">Turbocharging Backscatter Communication</a></li>
 				<li>Angli Liu*, Aaron Parks*, Shyam Gollakota, Josh Smith</li>
 				<li>SIGCOMM'14<li>
-				<li>[<a href="https://scholar.google.com/scholar.bib?q=info:dA2d_Zc2J_4J:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAVzbwH2xGxeZfWNNyfdXB97xWZdiR1l1A&scisf=4&hl=en">bib</a>][<a href="https://docs.google.com/presentation/d/1j4bHgs2R3t4ceeK7q_KHnvD82EA1kvKVSyCpZVLM64I/edit?usp=sharing">slides</a>][<a href="https://github.com/anglil/abc-mimo-fw">code</a>]</li>
+				<li>[<a href="https://docs.google.com/presentation/d/1j4bHgs2R3t4ceeK7q_KHnvD82EA1kvKVSyCpZVLM64I/edit?usp=sharing">slides</a>][<a href="https://github.com/anglil/abc-mimo-fw">code</a>]</li>
 			</ul>
 		</div>
 	</div><!--list-group-->
@@ -207,7 +199,7 @@ A PhD student in the Computer Science and Engineering Department at the Universi
 	</div>-->
        
 	<div style="margin-top: 2em; margin-bottom: 2em; text-align: center;">
-		<font size="-1">© 2015-2017 Angli Liu.</font>
+		<font size="-1">© 2015-2018 Angli Liu.</font>
 	</div>
 
     <!-- Bootstrap core JavaScript
